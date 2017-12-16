@@ -17,8 +17,10 @@ phases:
       - /opt/android-sdk-linux/tools/android update sdk --no-ui
   build:
     commands:
+      - android update sdk -a -u -t 3
       - echo Build started on `date`
       - chmod +x gradlew
+      - ls
       - ./gradlew assembleDebug
   post_build:
     commands:
