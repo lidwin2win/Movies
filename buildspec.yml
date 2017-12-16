@@ -19,7 +19,7 @@ phases:
     commands:
       - echo Build started on `date`
       - chmod +x gradlew
-      - gradlew assembleDebug
+      - ./gradlew assembleDebug
   post_build:
     commands:
       - echo Build completed on `date`
