@@ -19,7 +19,7 @@ phases:
     commands:
       - echo Build started on `date`
       - chmod +x gradlew
-      - gradlew compileDebug
+      - ./gradle compileDebug --stacktrace 
   post_build:
     commands:
       - echo Build completed on `date`
