@@ -6,5 +6,5 @@ phases:
       - ./gradlew assembleDebug --debug
 artifacts:
   files:
-    - app2/build/outputs/apk/app-debug.apk
+    - app/**/*
 
